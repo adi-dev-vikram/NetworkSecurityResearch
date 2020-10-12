@@ -2,5 +2,27 @@
 
 2.) curl host_name/IPv4 or curl -k for insecure connection
 
+SAMPLE OUTPUT :
+successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+* TLSv1.2 (OUT), TLS header, Certificate Status (22):
+* TLSv1.2 (OUT), TLS handshake, Client hello (1):
+* CONNECT phase completed!
+* CONNECT phase completed!
+* TLSv1.2 (IN), TLS handshake, Server hello (2):
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+* TLSv1.2 (IN), TLS handshake, Request CERT (13):
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+* TLSv1.2 (OUT), TLS handshake, Certificate (11):
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+* TLSv1.2 (OUT), TLS handshake, CERT verify (15):
+* TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+* TLSv1.2 (IN), TLS change cipher, Client hello (1):
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+
 3.) Server Cert validation helps authenticate the identity of the server. However, implementing it in own code might be dangerous. That being said libcurl, urllib(python) can be used.
 
