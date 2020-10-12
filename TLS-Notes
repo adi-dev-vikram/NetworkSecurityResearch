@@ -1,0 +1,6 @@
+1.) openssl s_client -connect <IP>:443 -prexit -showcerts
+
+2.) curl host_name/IPv4 or curl -k for insecure connection
+
+3.) Server Cert validation helps authenticate the identity of the server. However, implementing it in own code might be dangerous. That being said libcurl, urllib(python) can be used.
+
