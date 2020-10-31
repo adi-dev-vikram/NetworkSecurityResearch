@@ -1,3 +1,8 @@
+For HTTPS communication we perform TLS handshake
+ *) SSL tls is application layer protocol and doesnt have UDP
+ 
+ Implementing TLS handshake is very dangerous in software
+
 1.) openssl s_client -connect <IP>:443 -prexit -showcerts
 
 2.) curl host_name/IPv4 or curl -k for insecure connection
