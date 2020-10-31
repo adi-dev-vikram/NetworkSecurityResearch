@@ -1,0 +1,1 @@
+Botnet detection can be performed in two phases which can work individually or one after other.
