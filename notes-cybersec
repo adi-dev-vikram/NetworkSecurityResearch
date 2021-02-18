@@ -1,0 +1,13 @@
+route -n get default to get router's IP.
+
+port 80 : HTTP
+port 443 : HTTPS
+ssh and telnet @ 22 and 23 respectively
+NAT -> port forwarding or DMZ need port forwarding rules in router. so it allows deny all unless configured routers offer dns,dhcp , firewall as well.
+
+shodan.io search engine for vulnerable devices
+
+
+
+
+
