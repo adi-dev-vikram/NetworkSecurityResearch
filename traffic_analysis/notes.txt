@@ -24,3 +24,8 @@ The features uid, id.orig_h, id.resp_h, threat are removed without affecting our
 Dynamic range of these attributes. like simple auth or Http GET
 
 if mode port == 80 and L4 tcp then fine but in majority of these sent packets if they are SYN then SYN flooding might be there.
+
+
+Future Improvement:
+
+how can port scanning data be used to a) manage client devices b) control client network activity c) analyse this and along with other paramenter will be used to quarantine malicious clients
