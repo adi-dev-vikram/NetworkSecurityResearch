@@ -29,3 +29,10 @@ if mode port == 80 and L4 tcp then fine but in majority of these sent packets if
 Future Improvement:
 
 how can port scanning data be used to a) manage client devices b) control client network activity c) analyse this and along with other paramenter will be used to quarantine malicious clients
+
+
+
+Instead of being connected permanently to the channels, the bots regularly contact the HTTP C&C servers hosted on different sites in order to get the commands. The commands are embedded in web pages hosted on the C&C servers, and can be retrieved by the bots after requesting corresponding pages. While the HTTP bot does not remain connected to the C&C servers, it visits the corresponding sites on a regular
+Holistic Model for HTTP Botnet Detection Based on DNS Traffic Analysis 7
+basis, and at a pace defined by the botmaster. Such regularity can be leveraged in detecting the presence of the botnet.
+Furthermore, HTTP botnet servers involve fewer web services compared to legit- imate web servers. Typical HTTP botnet C&C server will provide a command download only while legitimate sites will support a wide range of services. The request parameters in HTTP C&C tend to be relatively stable or similar (e.g. images used as command files) while a variety of resources will be requested and exchanged in legitimate web communications.
