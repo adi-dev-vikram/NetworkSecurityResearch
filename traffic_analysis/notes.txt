@@ -1,3 +1,6 @@
+ETA stands for encrypted traffic analytics
+since most of traffic nowadays is encrypted .Feature extraction methods for traffic classification include session duration, number of packets in a session , minimum, maximum and average values of inter-arrival packets time , payload size information , bit rate , round-trip time , packet direction , and server sent bit-rate that has the advantage of overcoming communication problems such as packet loss and retransmissions.
+
 Notes for network traffic log analysis
 
 
