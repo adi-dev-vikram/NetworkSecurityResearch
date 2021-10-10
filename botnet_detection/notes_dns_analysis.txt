@@ -1,10 +1,15 @@
 This doc maintains notes and insigths related to DNS Analysis for Botnet detection
 
-HTTP botnets are currently the most popular form of botnets com- pared to IRC and P2P botnets. This is because, they are not only easier to implement, operate, and maintain, but they can easily evade the detection. Likewise, HTTP botnets flows can easily be buried in the huge volume of legitimate HTTP traffic occurring in many organizations,
+HTTP botnets are currently the most popular form of botnets com- pared to IRC and P2P botnets. 
+This is because, they are not only easier to implement, operate, and maintain, but they can easily evade the detection. 
+Likewise, HTTP botnets flows can easily be buried in the huge volume of legitimate HTTP traffic occurring in many organizations,
 
-Specifically, six signs and traffic patterns for suspicious activities were identified. One of these signs relates to DNS queries that request known malicious domains or names with characteristics common to Domain Generation Algorithms (DGA) associated with the botnet. Other signs are the abnormally high amount of query answers returning Non-Existent Domain (NXDOMAIN), the high amount of query responses with short time-to-live (TTL) for newly registered domain names, and responses with suspicious IP addresses.
+Specifically, six signs and traffic patterns for suspicious activities were identified. 
+One of these signs relates to DNS queries that request known malicious domains or names with characteristics common to Domain Generation Algorithms (DGA) associated with the botnet. 
+Other signs are the abnormally high amount of query answers returning Non-Existent Domain (NXDOMAIN), the high amount of query responses with short time-to-live (TTL) for newly registered domain names, and responses with suspicious IP addresses.
 
-DNS naming structure is shaped as tree data structure. A top-level-domain (TLD) is the node that comes after the root. For example, .com, .net, and so on, are known as TLDs. Each TLD is a registry that holds and manages a zone file. A prefix name or sub domain of each TLD is known as a second level domain (SLD) name. All second level domains are controlled by authoritative DNS servers. A domain name can have one or more hierarchical sub domains; each sub domain level is defined by the incremental second-level domain. 
+DNS naming structure is shaped as tree data structure. A top-level-domain (TLD) is the node that comes after the root. For example, .com, .net, and so on, are known as TLDs. Each TLD is a registry that holds and manages a zone file. A prefix name or sub domain of each TLD is known as a second level domain (SLD) name. 
+All second level domains are controlled by authoritative DNS servers. A domain name can have one or more hierarchical sub domains; each sub domain level is defined by the incremental second-level domain. 
 For example, foo.example.com is a third level domain. More- over, a complete domain name (e.g. www.google.com or blog.example.com) is referred to as a fully qualified domain name (FQDN).
 
 DNS provides different types of records which map various resources such as web, mail servers, etc. Each DNS query contains a time-to-live (TTL) value that determines how long a machine caches a query. Normal TTL values, for an A record are between 3,600 to 86,400 s.
