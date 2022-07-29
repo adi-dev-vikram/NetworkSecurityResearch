@@ -2,6 +2,14 @@ This file contains information about DGA research.
 
 It includes :
 
-What are DGAs?
+What are DGA based botnet?
 
-Botnets
+Those Botnets Automatically generating domains to query inoder to become difficult to take down.
+
+Mostly DGA are seed generated or generated using lists and dictionary concatination.
+
+Important characteristics of benign DNS queries:
+
+Domain name should have a valid public suffix
+Characters in the domain name are not all digits
+
