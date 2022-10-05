@@ -12,4 +12,10 @@ NSL-KDD: http://www.unb.ca/cic/datasets/nsl.html
 
 UNSW-NB15: https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-NB15-Datasets/
 
+# I have focused on the defensive aspects of ML application in cybersecurity.
+
+1.) Network Intrusion detection
+2.) Spam detection.
+3.) Anomaly detection.
+
 
